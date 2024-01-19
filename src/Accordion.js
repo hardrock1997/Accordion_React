@@ -23,7 +23,7 @@ export default function Accordion() {
          
 
             {
-            accordionData.map((data)=>{
+            data.map((data)=>{
                 return (
                 <div key={data.id} className='container'>
                 <div className='title' onClick={()=>handleClick(data.id)}>
