@@ -1,0 +1,29 @@
+.main_container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+   
+}
+.container {
+        width: inherit;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: black;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+ .title {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    background-color: aqua;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+}
